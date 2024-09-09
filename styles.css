@@ -6,21 +6,34 @@
 
 header {
     text-align: center;
+    background-color: #666999;
 }
 
 footer {
     text-align: center;
+    background-color: #336699;
 }
 
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 5% 90% 5%;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
-    padding: 10% 5% 0 5%;
-    border: 2px solid grey;
+    padding: 5%;
+}
+
+.books {
+    background-color: #f66666;
+}
+
+.current-book-info {
+    background-color: #abcdef;
+}
+
+form {
+    background-color: #abcabc;
 }
